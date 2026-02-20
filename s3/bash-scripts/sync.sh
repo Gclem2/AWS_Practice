@@ -12,12 +12,12 @@ NUM_FILES=$((RANDOM % 6 + 5))
 
 
 if [ -z "$1" ]; then
-  echo "There needs to be a bucket name eg ./bucket my-bucket-name"
+  echo "There needs to be a bucket name eg ./bucket my-bucket-name filename_prefix"
   exit 1
 fi
   
 if [ -z "$2" ]; then
-  echo "There needs to be a bucket name eg ./bucket my-bucket-name"
+  echo "There needs to be a filename prefix eg ./bucket my-bucket-name filename_prefix
   exit 1
 fi
 

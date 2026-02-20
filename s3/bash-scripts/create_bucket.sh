@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e 
 #https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html
 
 if [ -z "$1" ]; then

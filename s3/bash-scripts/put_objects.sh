@@ -1,6 +1,6 @@
 #!/bin/bash
+set -e
 echo "== put-object"
-
 #Check for the bucket name
 if [ -z "$1" ]; then
   echo "There needs to be a bucket name eg ./bucket my-bucket-name filename"
