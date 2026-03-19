@@ -1,2 +1,14 @@
+# Dependency directories
 vendor/
-vendor/bundle/
+.bundle/
+
+# Environment / secrets
+.env
+*.pem
+*.key
+
+# OS junk
+.DS_Store
+
+# Logs
+*.log
