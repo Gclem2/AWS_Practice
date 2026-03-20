@@ -13,7 +13,7 @@ vendor/
 # Logs
 *.log
 
-
+.*
 target/
 .class
 .jar
