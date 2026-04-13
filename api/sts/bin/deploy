@@ -1,0 +1,6 @@
+#!/bin/bash
+
+aws cloudformation deploy \
+--template-file ~/Projects/AWS_Practice/api/sts/template.yaml \
+--stack-name my-sts-fun-stack \
+--capabilities CAPABILITY_IAM
