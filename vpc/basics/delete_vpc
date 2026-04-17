@@ -1,0 +1,9 @@
+#!/bin/bash 
+
+if [ -z "$1" ]; then 
+  echo "Argument not provided."
+else 
+  export VPC_ID="$1"
+fi
+
+aws ec2 delete-vpc --vpc-id "$VPC_ID"
